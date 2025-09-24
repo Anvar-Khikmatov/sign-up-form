@@ -1,4 +1,4 @@
-# A simple semi-respinsive registration form built with HTML, CSS, and JavaScript. The form includes built-in HTML5 validation and custom JavaScript validation for password confirmation.
+### A simple semi-respinsive registration form built with HTML, CSS, and JavaScript. The form includes built-in HTML5 validation and custom JavaScript validation for password confirmation.
 
 ## Features 
 
