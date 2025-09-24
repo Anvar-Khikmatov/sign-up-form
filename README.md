@@ -9,3 +9,6 @@
 ✅ Password confirmation check with JavaScript
 
 ✅ Custom error messages using setCustomValidity
+
+
+[Live demo](https://anvar-khikmatov.github.io/sign-up-form/) 

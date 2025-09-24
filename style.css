@@ -21,7 +21,7 @@
     display: flex;
     flex: 1;
     display: flex;
-    background: url(/img/bg.webp);
+    background: url("/img/bg.webp");
     background-repeat: no-repeat;            
     background-size: cover;                  
     background-position: center; 
