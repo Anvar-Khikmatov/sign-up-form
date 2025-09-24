@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Macondo&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:wght@300&family=Russo+One&family=Satisfy&family=Special+Elite&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Macondo&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Roboto:wght@300&family=Russo+One&family=Satisfy&family=Special+Elite&display=swap');
+
+
+
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.nav{
+    position: relative;
+    display: flex;
+    flex: 1;
+    display: flex;
+    background: url(/img/bg.webp);
+    background-repeat: no-repeat;            
+    background-size: cover;                  
+    background-position: center; 
+}
+.logo{
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: clamp(3rem, 5vw, 7rem);
+    width: 100%;
+    color: white;
+    background-color: rgba(61, 57, 57, 0.523);
+    font-size: clamp(0.5rem, 2vw + 1rem, 2.2rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo h1{
+    font-family: 'Russo One', 'Orbitron', sans-serif;
+    font-weight: 500; 
+    font-style: normal;
+    text-shadow: 4px 4px 3px rgb(0, 0, 0);
+}
+.logo img{
+    height: 60%;
+    margin: 0 16px;
+}
+
+.credit{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    height: 2rem;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    white-space: normal;
+}
+.credit a {
+  display: inline;
+  margin: 0 0.5%;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+
+
+
+
+.main{
+    flex: 1.6;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 232, 232);
+    box-sizing: border-box;
+}
+
+.motivation{
+    background-color: rgb(236, 232, 232);
+    height: calc(100vh / 3);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: clamp(3rem, 1rem + 2vw, 4rem);
+    padding-top: 1%;
+    font-size: clamp(1rem, 1.8vw, 2.4rem);
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 2px 2px 4px  rgba(0,0,0,0.6); 
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh * 2 / 3);
+}
+
+
+.main-form{
+    display: grid;
+    grid-template-columns: 25% 25%;
+    gap: 0 8%;
+    justify-content: start;
+    align-items: center;
+    height: 100%;   
+    font-family: 'Nunito', sans-serif;
+    flex: 1;
+    padding-left: clamp(3rem, 1rem + 2vw, 4rem);
+    box-shadow: 0 0 10px 2px rgba(129, 127, 127, 0.6); 
+    background-color: white;
+}
+
+.main-form div {
+  display: flex;
+  flex-direction: column;
+}
+
+label{
+   color: rgb(90, 90, 89);
+   font-weight: 600;
+   font-size: clamp(0.7rem, 0.9vw, 1.3rem);
+}
+
+input{
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 2px;
+    height: 3.2vh;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 100%;
+    padding: 0.5rem 0.3rem;
+}
+
+input:focus{
+    border: 2px solid rgb(102, 187, 241);
+    outline: transparent;
+    box-shadow: 0 0 3px 1px rgb(214, 213, 213);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 100%;
+}
+
+input[type = "password"]:invalid{
+    border: 2px solid red;
+    outline: transparent;
+}
+
+
+
+.end{
+    flex: 1;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 4%;
+    padding-left: clamp(3rem, 1rem + 2vw, 4rem);
+}
+
+.end button{
+    height: clamp(1rem, 7vh, 3rem);
+    width: clamp(5rem, 12vw, 18rem);
+    border-radius: 4px;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: clamp(0.7rem, 1vw, 1.2rem);
+    color: white;
+    background: linear-gradient(135deg,  rgb(31, 31, 31), rgb(89, 89, 89));
+    margin-bottom: 2%;
+}
+
+.end p{
+    font-weight: 650;
+}
+
+.end a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+} 

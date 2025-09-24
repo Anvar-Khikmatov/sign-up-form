@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome to GYM</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="nav">
+            <div class="logo">
+                <img src="img/dumbell-left.svg" alt="dumbell">
+                <h1>The Forge</h1>
+                <img src="img/dumbell-right.svg" alt="dumbell">
+            </div>
+
+            <div class="credit">
+                Photo by  <a href="https://unsplash.com/@samuelgirven"> Samuel Girven </a> on 
+                          <a href="https://unsplash.com/photos/dumbbells-on-floor-VJ2s0c20qCo"> Unsplash </a>
+            </div>
+        </div>
+
+
+
+        <div class="main">
+            <div class="motivation">
+                Don’t wait for change. Forge it.<br>
+                Every rep brings you closer.<br>
+                The hardest step is starting - you just did.<br><br>
+                Sign up now and let’s do this!
+            </div>
+
+
+            <div class="form">
+                <form action="" method="post">
+                    <div class="main-form">
+                        <div>
+                        <label for="f-name">FIRST NAME</label>
+                        <input type="text"  id="f-name" name="first-name" >
+                        </div>
+
+                        <div>
+                        <label for="l-name">LAST NAME</label>
+                        <input type="text" id="l-name" name="last-name" >
+                        </div>
+
+                        <div>
+                        <label for="email">EMAIL</label> 
+                        <input type="email" id="email" name="email"  >
+                        </div>
+
+                        <div>
+                        <label for="phone">PHONE NUMBER</label> 
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]+" title="Please enter numbers only"  >
+                        </div>
+
+                        <div>
+                        <label for="password">PASSWORD</label> 
+                        <input type="password" id="password" name="password" 
+                                    pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9]).{5,12}$" 
+                                    title="Password must be 5-12 characters, with at least one uppercase, one lowercase, and one special character."  required> 
+                        </div>
+
+                        <div>
+                        <label for="confirm-password">CONFIRM PASSWORD</label> 
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                        </div>
+                    </div>      
+                    
+                    <div class="end">
+                        <button type="submit" class="create-account">Create Account</button>
+                        <p>Already have an account? <a href="">Log in</a></p>
+                    </div>
+                </form>
+            </div>
+
+
+            
+
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
